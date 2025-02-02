@@ -5,7 +5,7 @@ import { TopBar } from '@/components/layout/TopBar';
 import { Search, Paperclip } from 'lucide-react';
 
 export default function HomePage() {
-  const [isInitial] = useState(true);
+  // Remove isInitial since we're not using it
   const [message, setMessage] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
